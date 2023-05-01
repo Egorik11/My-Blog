@@ -1,6 +1,6 @@
 import styles from "./Header.module.scss"
 import logo from "../../assets/img/logo-01.png"
-import {Navlist} from "./Navlist/Navlist"
+import {Navlist} from "../Navlist"
 
 function Header() {
   return (
@@ -13,4 +13,4 @@ function Header() {
   )
 }
 
-export default Header;
+export {Header};

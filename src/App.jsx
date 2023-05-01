@@ -1,15 +1,14 @@
 import "./assets/style.css"
-import Header from "./components/Header/Header"
-import Hero from "./components/Hero/Hero"
+import { Header } from "./components/Header"
+import { Hero } from "./components/Hero"
+import { Button } from "./components/Button"
 
 function App() {
   return (
     <div className="Container">
      <Header />
       <Hero />
-      <button>
-        click
-      </button>
+      <Button />
       <div className="postlist">
         <div className="postitem">1 item</div>
         <div className="postitem">2 item</div>
