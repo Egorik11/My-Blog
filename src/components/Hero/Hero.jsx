@@ -1,6 +1,4 @@
 import heroImg from "../../assets/img/img-01.jpg"
-import arrowBack from "../../assets/img/arrow-back.png"
-import arrowNext from "../../assets/img/arrow-next.png"
 import styles from "./Hero.module.scss"
 import { Button } from "../Button"
 
@@ -18,9 +16,8 @@ function Hero() {
           <p>The National University of Architecture</p>
         </div>
         <div className={styles.buttons}>
-          <img src={arrowBack} alt="" />
-          <Button text={`${arrowBack} Back`}/>
-          <Button text={"Next->"}/>
+          <Button>Back</Button>
+          <Button>Next</Button>
         </div>
       </div>
     </div>
