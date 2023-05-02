@@ -1,0 +1,1 @@
+export { Postitem } from './Postitem';
