@@ -1,13 +1,7 @@
-import { Postitem } from "../Postitem"
-
-function Postlist({dataImg}) {
+function PostList({children}) {
   return (
-    <div className="postlist">
-     {dataImg.map((element) => (
-      <Postitem key={element.id} url={element.links.download} />
-      ))}
-    </div>
+    <div>{children}</div>
   )
 }
 
-export {Postlist}
+export {PostList}
