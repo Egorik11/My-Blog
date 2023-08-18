@@ -1,5 +1,9 @@
+import { PostList } from "../components/PostList"
+
 export const Post = () => {
   return (
-    <div>Post</div>
-  )
+    <div>
+      dsdsd
+    </div>
+    )
 }
